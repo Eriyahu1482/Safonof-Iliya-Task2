@@ -10,7 +10,7 @@ namespace Safonof_Iliya_Task2
         {
             InitializeComponent();
             CoreNavigate.MyCore = MainFrame;
-            MainFrame.Navigate(new MainPage());
+            MainFrame.Navigate(new MANEpage());
         }
     }
 }

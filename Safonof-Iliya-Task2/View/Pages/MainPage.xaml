@@ -42,7 +42,6 @@
                         Click="MNBTN9_Click">
                         <TextBlock FontSize="30" Text="9" />
                     </Button>
-
                     <Button
                         x:Name="MNBTN10"
                         Width="65"
@@ -61,7 +60,6 @@
                         Click="MNBTN11_Click">
                         <TextBlock FontSize="30" Text="11" />
                     </Button>
-
                     <Button
                         x:Name="MNBTN12"
                         Width="65"
@@ -97,60 +95,6 @@
                         Background="Wheat"
                         Click="MNBTN15_Click">
                         <TextBlock FontSize="30" Text="15" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN16"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN16_Click">
-                        <TextBlock FontSize="30" Text="16" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN17"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN17_Click">
-                        <TextBlock FontSize="30" Text="17" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN18"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN18_Click">
-                        <TextBlock FontSize="30" Text="18" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN19"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN19_Click">
-                        <TextBlock FontSize="30" Text="19" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN20"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN20_Click">
-                        <TextBlock FontSize="30" Text="20" />
-                    </Button>
-                    <Button
-                        x:Name="MNBTN21"
-                        Width="65"
-                        Height="65"
-                        Margin="20"
-                        Background="Wheat"
-                        Click="MNBTN21_Click">
-                        <TextBlock FontSize="30" Text="21" />
                     </Button>
                     <Button
                         x:Name="MNBTN22"

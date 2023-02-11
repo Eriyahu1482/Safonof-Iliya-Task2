@@ -17,29 +17,30 @@ using static Safonof_Iliya_Task2.Core.Core;
 namespace Safonof_Iliya_Task2.View.Pages.TaskPages
 {
     /// <summary>
-    /// Логика взаимодействия для Task7.xaml
+    /// Логика взаимодействия для Task9.xaml
     /// </summary>
-    public partial class Task7 : Page
+    public partial class Task9 : Page
     {
-        public Task7()
+        public Task9()
         {
             InitializeComponent();
         }
 
-        public void BTN7_Click(object sender, RoutedEventArgs e)
+        private void BTN9_Click(object sender, MouseButtonEventArgs e)
         {
             try
             {
-                double k = 8.2, x = 5, a=1, c=1;
-                a = Math.Pow(c, 3) + k;
-                c = Math.Sqrt(x);
-                MessageBox.Show($"y = {Math.Pow(Math.Log10(a),3) + Math.Pow(Math.Cos(x), 5)}\na = {Math.Pow(c, 3) + k}\nc = {Math.Sqrt(x)}", " задание 1.1",
-                        MessageBoxButton.OK,
+                double x = 0, y = 0, k = 1, m = 1.8, c = 0;
+                x = Math.Exp(m*k);
+                c = Math.Pow(Math.Cos(m), 2) + Math.Pow(k, 2);
+                y = Math.Pow(Math.Sqrt(Math.Pow(x,2)+ Math.Pow(c, 2)), 3);
+                MessageBox.Show($"y = {y}\nx = {x}\nc = {c}", "задание 1.9",
+                MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.1",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.9",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
